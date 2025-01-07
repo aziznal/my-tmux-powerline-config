@@ -1,9 +1,9 @@
 # See Color formatting section below for details on what colors can be used here.
-TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR=#282a36
-TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR=#6272A4
+TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR=#181818
+TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR=#36C692
 
-# The separator to use between windows on the status bar.
-export TMUX_POWERLINE_WINDOW_STATUS_SEPARATOR="  "
+	# The separator to use between windows on the status bar.
+	export TMUX_POWERLINE_WINDOW_STATUS_SEPARATOR="  "
 
 # See `man tmux` for additional formatting options for the status line.
 # The `format regular` and `format inverse` functions are provided as conveniences
@@ -11,7 +11,7 @@ export TMUX_POWERLINE_WINDOW_STATUS_SEPARATOR="  "
 if [ -z "$TMUX_POWERLINE_WINDOW_STATUS_CURRENT" ]; then
 	TMUX_POWERLINE_WINDOW_STATUS_CURRENT=(
 		"#[$(format inverse)]"
-		" #I: #W "
+		" #I: #W "
 		"#[$(format regular)]"
 	)
 fi
