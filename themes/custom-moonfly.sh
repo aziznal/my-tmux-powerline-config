@@ -1,6 +1,6 @@
 # See Color formatting section below for details on what colors can be used here.
-TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR=#181818
-TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR=#36C692
+TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR=#213363
+TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR=#0390fc
 
 	# The separator to use between windows on the status bar.
 	export TMUX_POWERLINE_WINDOW_STATUS_SEPARATOR="  "
